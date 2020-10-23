@@ -20,7 +20,6 @@ def get_text(data):
         resAll = r[23:]
         datares.append(resAll.replace("</span>", ""))
     return datares
-# print(text[:100])  # Первые 100 символов из строки
 
 bot = telebot.TeleBot('1132941408:AAHfZStCTNIxj4-RwCMpcv52dJE5YC2h6sI');
 
